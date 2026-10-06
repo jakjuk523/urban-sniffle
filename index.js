@@ -29,5 +29,5 @@ function grade_web() {
 }
 
 
-play.addEventListener('click', () => play_game());
-grade.addEventListener('click', () => grade_web());
+play.addEventListener('click', play_game);
+grade.addEventListener('click', grade_web)
